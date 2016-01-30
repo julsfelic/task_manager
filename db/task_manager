@@ -1,0 +1,12 @@
+---
+tasks:
+- id: 1
+  title: Fold clothes
+  description: Make sure to fold them right after they are done drying
+- id: 2
+  title: Finishing drinking my milk
+  description: It is super yummy
+- id: 3
+  title: Get through Task Manager
+  description: Make sure to do it a second time without looking through the tutorial
+total: 3
