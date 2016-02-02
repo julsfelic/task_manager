@@ -2,6 +2,22 @@
   Base
 */
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
   border-top: 12px solid #0097A7;
+  margin: 0 0 50px;
+}
+
+footer {
+  color: #B2EBF2;
+  line-height: 50px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
 }
