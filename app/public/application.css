@@ -1,4 +1,13 @@
 /*
+  buttons
+*/
+
+.btn-main {
+  font-weight: 200;
+  width: 140px;
+}
+
+/*
   Base
 */
 
@@ -10,6 +19,21 @@ html {
 body {
   border-top: 12px solid #0097A7;
   margin: 0 0 50px;
+}
+
+.logo {
+  font-weight: 200;
+}
+
+h1 {
+  font-weight: 200;
+  font-style: italic;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.callout {
+  background: url("../coffee.jpg");
 }
 
 footer {
