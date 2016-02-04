@@ -1,12 +1,21 @@
 ---
 tasks:
-- id: 1
-  title: Fold clothes
-  description: Make sure to fold them right after they are done drying
 - id: 2
   title: Finishing drinking my milk
-  description: It is super yummy
+  description: Dum dum
 - id: 3
-  title: Get through Task Manager
+  title: Yea
   description: Make sure to do it a second time without looking through the tutorial
-total: 3
+- id: 4
+  title: I'm Tired
+  description: Very Tired
+- id: 5
+  title: Stuff
+  description: More stuff
+- id: 6
+  title: Charge lapton
+  description: "Because it is running low\r\n"
+- id: 7
+  title: Eat food
+  description: All of it...
+total: 9

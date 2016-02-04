@@ -1,6 +1,11 @@
-<form action="/tasks" method="post">
+<form class="col s12" action="/tasks" method="post">
   <p>Enter a new task:</p>
-  <input type="text" name="task[title]"><br>
-  <textarea name="task[description]"></textarea><br>
-  <input type="submit">
+
+  <input type="text" placeholder="Task title" id="task_title" name="task[title]">
+  <label for="task_title">Task title</label>
+
+  <label for="task_description">Description</label>
+  <textarea id="task_description" name="task[description]"></textarea>
+
+  <input type="submit" value="Submit">
 </form>
