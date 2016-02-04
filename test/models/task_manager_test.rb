@@ -3,15 +3,6 @@ require_relative '../test_helper'
 class TaskManagerTest < Minitest::Test
   include TestHelpers
 
-  def create_tasks(num)
-    num.times do |i|
-      task_manager.create({
-        title: "stuff #{i + 1}",
-        description: "description #{i + 1}"
-      })
-    end
-  end
-
   def test_can_create_a_task
     create_task
 
